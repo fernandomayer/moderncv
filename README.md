@@ -13,7 +13,7 @@ To generate the logos for GitHub and Linkedin, I've used this code from [tex.sta
 
 Main files modified were:
 
-* `modercv.cls` (lines 204, 205, 258, 259, 413)
+* `moderncv.cls` (lines 204, 205, 258, 259, 413)
 * `moderncvthemeclassic.sty` (lines 152, 153)
 
 See how it is in this [template][temp-pdf] (source [here][temp-src]).
