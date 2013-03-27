@@ -12,14 +12,14 @@ Besides that, I made some tweaks in the code, mainly:
 
 To generate the logos for GitHub and Linkedin, I've used this code from [tex.stackexchange][] (thanks to Paulo Cereda and Gonzalo Medina). I've created `pgf` files, opened them at [Qtikz][], and exported as `pdf` files.
 
-The CNPq logo was downloaded directly from the [CNPq visual identity website][lmarca]. I've just extracted the head (!), made it grey, and converted to `pdf` using [Inkscape][] and [Gimp][].
+The CNPq logo was downloaded directly from the [CNPq visual identity website][lmarca]. I've just extracted the "head" (!), made it grey, and converted to `pdf` using [Inkscape][] and [Gimp][].
 
 Main files modified were:
 
 * `moderncv.cls` (lines 204, 205, 206, 259, 260, 261, 413)
 * `moderncvthemeclassic.sty` (lines 152, 153, 154)
 
-See how it is in this [template][temp-pdf] (source [here][temp-src]).
+See how it is in this [template][temp-pdf] (source [here][temp-src])[^1].
 
 ## License
 
@@ -39,3 +39,4 @@ Modifications here are under the same license (lppl1.3).
 [lmarca]: http://cnpq.br/web/guest/lmarca-cnpq
 [Inkscape]: http://inkscape.org
 [Gimp]: http://www.gimp.org
+[^1]: Nota
