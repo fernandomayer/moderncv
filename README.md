@@ -19,7 +19,7 @@ Main files modified were:
 * `moderncv.cls` (lines 204, 205, 206, 259, 260, 261, 413)
 * `moderncvthemeclassic.sty` (lines 152, 153, 154)
 
-See how it is in this [template][temp-pdf] (source [here][temp-src]). (NOTE for the geeks: the Spock info is just illustrative, no care was taken about real facts and dates! LLAP `\\//`)
+See how it is in this [template][temp-pdf] (source [here][temp-src]). (NOTE for the geeks: the Spock info is just illustrative, no care was taken about real facts and dates! No offence intended. LLAP `\\//`)
 
 ## License
 
