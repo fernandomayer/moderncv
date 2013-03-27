@@ -7,14 +7,15 @@ These are the files of the `moderncv` LaTeX package, with some modifications I'v
 Besides that, I made some tweaks in the code, mainly:
 
 * `\github` and `\linkedin` commands to put your GitHub and Linkedin links together with your other personal information (with logos, see below).
+* `\lattes` command, so that Brazilian users can insert their link to "[Currículo Lattes][Lattes]".
 * Keep a sans-serif font for page numbers.
 
 To generate the logos for GitHub and Linkedin, I've used this code from [tex.stackexchange][] (thanks to Paulo Cereda and Gonzalo Medina). I've created `pgf` files, opened them at [Qtikz][], and exported as `pdf` files.
 
 Main files modified were:
 
-* `moderncv.cls` (lines 204, 205, 258, 259, 413)
-* `moderncvthemeclassic.sty` (lines 152, 153)
+* `moderncv.cls` (lines 204, 205, 206, 259, 260, 261, 413)
+* `moderncvthemeclassic.sty` (lines 152, 153, 154)
 
 See how it is in this [template][temp-pdf] (source [here][temp-src]).
 
@@ -31,3 +32,4 @@ Modifications here are under the same license (lppl1.3).
 [temp-pdf]: template_moderncv.pdf
 [temp-src]: template_moderncv.tex
 [lppl]: http://www.ctan.org/license/lppl1.3
+[Lattes]: http://lattes.cnpq.br

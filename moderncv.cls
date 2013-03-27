@@ -203,6 +203,7 @@
 \providecommand*{\homepagesymbol}{{\Large\ComputerMouse}}
 \providecommand*{\githubsymbol}{\raisebox{-1pt}{\includegraphics[height=9pt]{github}}}
 \providecommand*{\linkedinsymbol}{\raisebox{-1pt}{\includegraphics[height=9pt]{linkedin}}}
+\providecommand*{\cnpqsymbol}{\raisebox{-1pt}{\includegraphics[height=9pt]{cnpq}}}
 
 % colors
 \definecolor{firstnamecolor}{rgb}{0,0,0}
@@ -257,6 +258,7 @@
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
 \newcommand*{\github}[1]{\def\@github{#1}}
 \newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
+\newcommand*{\lattes}[1]{\def\@lattes{#1}}
 \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1}}
 \def\@photowidth{0pt}
 \newcommand*{\photo}[2][64pt]{\def\@photowidth{#1}\def\@photo{#2}}
